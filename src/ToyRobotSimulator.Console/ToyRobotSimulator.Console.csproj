@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToyRobotSimulator.Domain\ToyRobotSimulator.Domain.csproj" />
+    <ProjectReference Include="..\ToyRobotSimulator.Application\ToyRobotSimulator.Application.csproj" />
+    <ProjectReference Include="..\ToyRobotSimulator.Infrastructure\ToyRobotSimulator.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
