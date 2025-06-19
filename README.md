@@ -19,7 +19,6 @@ Organisation du code :
 │   └── ToyRobotSimulator.Console/         # Point d’entrée en ligne de commande
 └── tests/
     ├── ToyRobotSimulator.UnitTests/        # Tests unitaires
-    └── ToyRobotSimulator.IntegrationTests/ # Tests de bout en bout
 ```
 
 ### Couche Domaine
@@ -133,7 +132,7 @@ Sortie attendue : `3,3,NORTH`
 
 ## Tests
 
-- **44 tests unitaires** couvrant toute la logique
+- **26 tests unitaires** couvrant toute la logique
 - Tests d’entités `Robot` et `Table`
 - Tests des services avec tous les exemples du kata
 - Vérification des limites du plateau
